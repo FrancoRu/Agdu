@@ -1,0 +1,56 @@
+.proof {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.proof div {
+  width: 100%;
+}
+
+.accordion,
+.accordion-item,
+.accordion-button {
+  border: none !important;
+  transition: border 0.3s ease-in-out;
+}
+
+label {
+  color: #2c6cbf;
+}
+
+@media (max-width: 990px) {
+  section {
+    flex-direction: column;
+  }
+
+  .proof {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .accordion-button .proof {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .proof div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 770px) {
+  .accordion-button .proof {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .proof div {
+    width: 100%;
+  }
+}

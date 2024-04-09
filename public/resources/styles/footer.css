@@ -1,0 +1,14 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #4e99db 0% 0% no-repeat padding-box;
+  padding: 20px; /* Ajusta el espacio interno según tus preferencias */
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra opcional para resaltar el footer */
+}
+
+@media (max-height: 750px) {
+  #content-footer {
+    display: none !important;
+  }
+}
